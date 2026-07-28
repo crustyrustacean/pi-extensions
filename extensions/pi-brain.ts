@@ -2,7 +2,7 @@
  * Pi Brain Extension
  *
  * Provides tools for interacting with the local pi-brain knowledge base service.
- * The pi-brain should be running on http://localhost:8000
+ * The pi-brain should be running on http://localhost:8080
  *
  * NOTE: As of pi-brain v1.0.0 the API uses plain HTTP — status codes carry
  * success/error and response bodies are the resource itself (no
@@ -13,7 +13,7 @@ import { Type } from "typebox";
 import { defineTool, type ExtensionAPI, type ExtensionContext } from "@earendil-works/pi-coding-agent";
 
 // Configuration
-const KB_BASE_URL = "http://localhost:8000";
+const KB_BASE_URL = "http://localhost:8080";
 const KB_API_BASE = `${KB_BASE_URL}/pb`;
 
 // --- Domain types (mirror pi-brain's `domain` crate) -----------------------
