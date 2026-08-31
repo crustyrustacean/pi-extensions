@@ -15,11 +15,11 @@ update --extensions` reconciles to the latest `main`).
 ## Install (per machine)
 
 ```bash
-pi install ssh://git@codeberg.org/crustyrustacean/pi-extensions@main
+pi install ssh://git@github.com/crustyrustacean/pi-extensions.git@main
 ```
 
 This adds the package to `~/.pi/agent/settings.json` and clones it to
-`~/.pi/agent/git/codeberg.org/crustyrustacean/pi-extensions`. Restart pi (or
+`~/.pi/agent/git/github.com/crustyrustacean/pi-extensions`. Restart pi (or
 `/reload`) to load. Update on every machine with:
 
 ```bash
