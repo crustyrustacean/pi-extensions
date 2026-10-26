@@ -2,7 +2,7 @@
   "name": "pi-extensions",
   "version": "0.1.0",
   "private": true,
-  "description": "Personal pi extensions: Codeberg API tools, pi-brain knowledge base, web fetch",
+  "description": "Personal pi extensions: pi-brain knowledge base, web fetch",
   "keywords": ["pi-package"],
   "pi": {
     "extensions": ["./extensions"]
